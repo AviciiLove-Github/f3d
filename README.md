@@ -1,6 +1,7 @@
 # F3D——flask架构的3d模型查看器
 
 课题项目，基于HuatuoGPT2-7B，这是一个基于Flask的Three.js 3D模型查看器应用，也有和后台的交换数据
+lora已上传至[huggingface](https://huggingface.co/EMABC/Huatuogpt2-lora-sft)，使用[数据集](https://huggingface.co/datasets/EMABC/f3d-model)。
 
 ## 功能
 
