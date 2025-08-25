@@ -239,6 +239,12 @@ async function sendMessage() {
                 addMessage(`AI回复：${result.result}`, false);
                 chatHistory.push({ role: 'user', content: message });
                 chatHistory.push({ role: 'assistant', content: result.result });
+
+                await loadTriggerPointStructure();
+                // 刷新后自动勾选
+                setTimeout(async () => {
+                    await autoCheckElements();
+                }, 500);
             } else {
                 addMessage(`AI处理失败：${result.error}`, false);
             }
@@ -744,8 +750,10 @@ async function loadTriggerPointStructure() {
     try {
         // 使用硬编码的文件列表（可以根据需要修改）
         const files = [
-            "冲阳.json",
-            "太冲.json"
+            "胸锁乳突肌锁骨支右.json",
+            "胸锁乳突肌锁骨支左.json",
+            "胸锁乳突肌胸骨支右.json",
+            "胸锁乳突肌胸骨支左.json"
         ];
         
         console.log('Files loaded:', files);
