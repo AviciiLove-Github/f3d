@@ -36,8 +36,8 @@ f3d/
 │       ├── exDraco.glb # 3D模型文件
 │       ├── acupoint.json # 穴位数据
 │       ├── children.json # 子节点数据
+│       ├── triggerpoint.json
 │       └── triggerpoint/ # 触发点数据
-│           ├── label.json
 │           └── *.json
 ```
 
