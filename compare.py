@@ -45,7 +45,7 @@ def Compare(point):
 
     
     overall = "、".join(out)
-    result = '\n\n另外，若使用触发点疗法%s。\n推荐治疗%s。\n相关注意事项可查看《无痛一身轻》一书。' % (find,overall)
+    result = '\n\n另外，若使用触发点疗法%s。\n最近的触发点为：%s。\n相关注意事项可查看《无痛一身轻》一书。' % (find,overall)
     
     with open('Temp-C', 'w', encoding='utf-8') as f:
         f.write(result)
