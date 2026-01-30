@@ -4,7 +4,7 @@
 3d模型由[bolin](https://gitee.com/plabrolin/interactive-3d-acup/)提供。
 
 lora已上传至[huggingface](https://huggingface.co/EMABC/Huatuogpt2-lora-sft)，使用[数据集](https://huggingface.co/datasets/EMABC/f3d-model)。
-这里是[Demo](https://f3d.asia/)。
+这里是[Demo](https://f3d.asia/)。这里是[Releases](https://github.com/AviciiLove-Github/f3d/releases)。
 
 ## 功能
 
@@ -47,5 +47,6 @@ f3d/
 
 `pip install -r requirements.txt`
 `python app.py`
+
 
 Apache-2.0 license
